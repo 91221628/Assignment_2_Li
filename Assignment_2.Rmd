@@ -1,0 +1,14 @@
+---
+title: "**Assignment_LiHaoNan**"
+author: "HAONAN LI"
+date: "*2021/10/5*"
+output: pdf_document
+---
+
+
+```{r}
+airquality[1:50, ]
+good <- complete.cases(airquality)
+airquality[good, ][1:6, ]
+```
+
